@@ -18,5 +18,4 @@ const MyUrlField = ({ record = {}, source, classes }) =>
         <LaunchIcon className={classes.icon} />
     </a>;
 
-// export default MyUrlField;
 export default withStyles(styles)(MyUrlField);
